@@ -1,0 +1,24 @@
+{
+  "name": "brandf-environment-part1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --progress --colors",
+    "start": "./node_modules/.bin/webpack-dev-server --inline --hot --progress --colors --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandf/brandf-environment-part1.git"
+  },
+  "author": "Brandon Furtwangler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandf/brandf-environment-part1/issues"
+  },
+  "homepage": "https://github.com/brandf/brandf-environment-part1#readme",
+  "devDependencies": {
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
